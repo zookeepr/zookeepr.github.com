@@ -1,0 +1,130 @@
+body {
+  position: relative;
+  font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 9pt;
+  color: #666;
+  margin: 0px auto;
+  width: 900px;
+  background: #92847b url(/images/background.gif) top center repeat-y; 
+}
+
+#wrapper {
+  width: 900px;
+  margin: 0px auto;
+  background: #92847b url(/images/background.gif) top center repeat-y; 
+}
+
+#head {
+  top: 0px;
+  height: 120px;
+  background: url(/images/header.gif) top center no-repeat;
+}
+
+#wikihead {
+  float: right;
+  clear: both;
+  padding-right: 50px;
+  padding-top: 70px;
+}
+
+#page-title {
+  position: absolute;
+  top: 35px;
+  left: 235px;
+  width: 605px;
+  font-size: 20pt;
+  font-weight: bold;
+  color: #eee;
+}
+
+#page-subtitle {
+  position: absolute;
+  top: 65px;
+  left: 235px;
+  width: 605px;
+  font-size: 16pt;
+  font-weight: bold;
+  color: #ddd;
+}
+
+#fork {
+  position: absolute;
+  top: 0;
+  right: 43px;
+  border: 0;
+}
+
+#columns {
+  width: 900px;
+  margin: 0px auto;
+}
+#col-left {
+  position: relative;
+  float: left;
+  width: 171px;
+  margin: 15px 0px 0px 40px;
+  padding-left: 10px;
+}
+#col-right {
+  position: relative;
+  float: right;
+  width: 600px;
+  margin: 15px 61px 0px 0px;
+  height: 100%;
+}
+
+
+#sidebar a {
+  text-decoration: none;
+  color: #ddd;
+  padding: 2px 2px 4px 2px; 
+  text-indent: 4px;
+  display: block;
+}
+
+#sidebar a.active, #sidebar a:hover {
+  color: #eee; 
+  background: #666 url(/images/selector.gif) center right no-repeat; 
+}
+
+#sidebar ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#sidebar li {
+  display: list-item;
+  margin: 0px;
+  border-bottom: 1px solid #666;
+}
+#sidebar h2 { font-size:150%; color: #fff; margin-bottom: 5px; }
+#sidebar h3 { font-size:130%; color: #fff; margin-bottom: 5px; }
+#sidebar h4 { font-size:100%; color: #fff; margin-bottom: 5px; }
+
+
+#footer {
+  text-align: right;
+  color: #666;
+  border-top: 1px solid #ccc;
+  margin-top: 18px;
+  padding: 10px 0px 10px 0px;
+}
+
+a {
+  color: #6799b1;
+  text-decoration: underline;
+}
+a:hover {
+  color: #838f96;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 { color: #666; }
+h1 { font-size: 16pt; }
+h2 { font-size: 14pt; }
+h3 { font-size: 12pt; }
+h4 { font-size: 10pt; } 
+h5 { font-size: 10pt; font-style: italic; }
+
+

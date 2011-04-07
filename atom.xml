@@ -1,0 +1,26 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Zookeepr - News</title>
+ <link href="http://zookeepr.org/atom.xml" rel="self"/>
+ <link href="http://zookeepr.org/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://zookeepr.org/</id>
+ <author>
+   <name>Zookeepr Team</name>
+   <email>zookeepr-team@zookeepr.org</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title | xml_escape }}</title>
+   <link href="http://zookeepr.org{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://zookeepr.org{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+</feed>
