@@ -30,6 +30,3 @@ title: 'Zookeepr: News'
     </li>
   {% endfor %}
 </ul>
-
-
-
