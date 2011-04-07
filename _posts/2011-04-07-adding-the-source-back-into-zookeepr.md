@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 ---
 
 While Zookeepr has always been an open source project, its development model has
